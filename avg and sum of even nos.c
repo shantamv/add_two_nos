@@ -7,10 +7,8 @@ int main()
 	scanf("%d",&n);
 	for (i=0;i<=n;i++)
 	if(n%2==0)
-	{
 		sum+=i;
-	}
-		avg=sum/n;
+	avg=sum/n;
 	printf("sum is =%d",sum);
 	printf("avg is =%f",avg);
 	return 0;	
